@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Layered mountain ridges at dawn in the North Carolina mountains">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c5f53"/>
+      <stop offset="0.42" stop-color="#274a3e"/>
+      <stop offset="1" stop-color="#0e2219"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="72%" cy="20%" r="42%">
+      <stop offset="0" stop-color="#f3ecd2" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#dcd6b4" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#dcd6b4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e2219" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a1a14" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <rect width="1440" height="900" fill="url(#sun)"/>
+
+  <!-- Far ridge -->
+  <path d="M0 322 C 260 288 470 344 720 314 S 1180 350 1440 300 L1440 900 L0 900 Z" fill="#54786c"/>
+  <rect x="0" y="286" width="1440" height="90" fill="url(#mist)"/>
+
+  <!-- Ridge 2 -->
+  <path d="M0 402 C 240 372 500 426 760 392 S 1210 430 1440 386 L1440 900 L0 900 Z" fill="#476a5e"/>
+  <rect x="0" y="368" width="1440" height="96" fill="url(#mist)"/>
+
+  <!-- Ridge 3 -->
+  <path d="M0 486 C 280 456 520 512 780 476 S 1220 516 1440 470 L1440 900 L0 900 Z" fill="#3a5c50"/>
+  <rect x="0" y="452" width="1440" height="100" fill="url(#mist)"/>
+
+  <!-- Ridge 4 -->
+  <path d="M0 576 C 240 548 540 604 800 566 S 1230 606 1440 560 L1440 900 L0 900 Z" fill="#2e4e43"/>
+  <rect x="0" y="544" width="1440" height="104" fill="url(#mist)"/>
+
+  <!-- Ridge 5 -->
+  <path d="M0 672 C 300 646 560 700 820 662 S 1240 702 1440 656 L1440 900 L0 900 Z" fill="#213f35"/>
+  <rect x="0" y="640" width="1440" height="108" fill="url(#mist)"/>
+
+  <!-- Foreground ridge -->
+  <path d="M0 772 C 260 748 560 800 840 762 S 1250 800 1440 758 L1440 900 L0 900 Z" fill="#15302a"/>
+
+  <rect width="1440" height="900" fill="url(#vignette)"/>
+</svg>

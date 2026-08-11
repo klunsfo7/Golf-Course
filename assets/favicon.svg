@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chatuge Shores Golf">
+  <circle cx="32" cy="32" r="32" fill="#0f5132"/>
+  <path d="M0 42c10-8 18-8 28-2s20 6 36-4v28H0z" fill="#2d8a4e"/>
+  <path d="M0 48c12-6 22-4 32 0s22 4 32-2v20H0z" fill="#1f6b39"/>
+  <ellipse cx="22" cy="52" rx="14" ry="3.5" fill="#63b3ed" opacity="0.9"/>
+  <rect x="44" y="12" width="2.5" height="30" fill="#e2e8f0"/>
+  <path d="M46.5 13l13 4.5-13 4.5z" fill="#e63946"/>
+</svg>
