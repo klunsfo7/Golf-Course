@@ -233,6 +233,13 @@ p { margin: 0 0 1rem; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231f7a4d'%3E%3Cpath d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/%3E%3C/svg%3E");
   background-repeat: no-repeat; background-position: center; background-size: 14px;
 }
+.price-list { list-style: none; margin: 1rem 0 0.5rem; padding: 0; display: grid; gap: 0.25rem; flex: 1; }
+.price-list li {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  padding: 0.7rem 0; border-bottom: 1px solid var(--line); color: var(--ink); font-weight: 600;
+}
+.price-list li:last-child { border-bottom: none; }
+.price-amt { font-family: var(--font-serif); font-weight: 800; font-size: 1.3rem; color: var(--green-800); }
 
 /* ---------- Membership / Careers feature lists ---------- */
 .membership-grid, .careers-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 3rem; align-items: center; }
